@@ -1,0 +1,41 @@
+[
+  {
+    "question": "今天您的用餐预算是多少？",
+    "options": ["50元以下", "50-100元", "100-200元", "200元以上", "不限预算"],
+    "id": "today_budget"
+  },
+  {
+    "question": "今天您想吃什么菜系？",
+    "options": [
+      "中餐",
+      "西餐",
+      "日韩料理",
+      "东南亚菜",
+      "中东菜",
+      "意大利菜",
+      "法式料理",
+      "不限菜系"
+    ],
+    "id": "today_cuisine_preference"
+  },
+  {
+    "question": "今天您希望用餐时间多长？",
+    "options": ["15分钟内", "30分钟内", "1小时内", "不限时间"],
+    "id": "today_dining_duration"
+  },
+  {
+    "question": "今天您的用餐场合是？",
+    "options": ["独自用餐", "朋友聚餐", "家庭聚餐", "商务用餐", "约会用餐", "庆祝活动"],
+    "id": "today_dining_occasion"
+  },
+  {
+    "question": "今天您想要什么样的口味？",
+    "options": ["清淡口味", "重口味", "酸甜口味", "麻辣口味", "鲜香口味"],
+    "id": "today_flavor_mood"
+  },
+  {
+    "question": "今天您还有其他特殊要求吗？",
+    "options": [],
+    "id": "today_special_request"
+  }
+]

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'remixicon';
+  src: url('/fonts/remixicon.ttf');
+}
+
+@font-face {
+  font-family: 'PingFang SC';
+  src: url('/font/PingFang Regular.ttf');
+}
+
+@font-face {
+  font-family: 'BMSF';
+  src: url('/font/blinkmacsystemfont-regular.ttf');
+}
+
+:root {
+  font-family: 'BMSF', 'PingFang SC';
+}
+
+html {
+  width: 100%;
+  height: 100%;
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    user-select: none;
+    background-color: #000;
+
+    > #app {
+      width: 100%;
+      max-width: 420px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #f2f2f2;
+    }
+  }
+}
